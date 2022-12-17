@@ -1,0 +1,50 @@
+"""x={"apple","banana","mango"}
+y={"apple","grapes","cherry"}
+z=x.intersection(y)
+print(z)
+z=x.intersection_update(y)
+print(z)
+x.symmetric_difference_update(y)
+print(x)"""
+"""car={
+    "car1":{
+    "brand":["ford","hyundai","i10"],
+    "model":"mustang",
+    "year":2022
+    },
+    "car2":{
+        "brand":"bmw",
+        "year":2023,
+        "id":0000
+    }
+}
+print(car)"""
+"""print(car["model"])
+print(car["brand"])
+print(len(car))
+x=car.keys()
+print(x)
+car["color"]="white"
+print(x)
+for x,y in car.items():
+    print(x,y)
+for x in car.values():
+    print(x)
+mycar=car.copy()
+print(mycar)"""
+
+car1={
+    "brand":["ford","hyundai","i10"],
+    "model":"mustang",
+    "year":2022
+    }
+car2={
+        "brand":"bmw",
+        "year":2023,
+        "id":0000
+    }
+car={
+        "car1":car1,
+        "car2":car2
+    }
+print(car)
